@@ -19,3 +19,6 @@ comando:
       "source.fixAll": "explicit"
 }
 </code>
+
+# Correção
+Voce so precisa <strong> npm i -D eslint-config-prettier eslint-config-airbnb eslint-config-prettier eslint-plugin-import</strong> e oa rquivo prettier
