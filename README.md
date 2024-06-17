@@ -28,15 +28,27 @@
       <li>ESlint</li>
       <li>Prettier - Code formatter</li>
 </ul>
-<p>Coloca seguinte comando no arquivo json do <strong>visual studio</strong>(pro eslint poder corrigir os arquivos)</p>
+<p>Inseri o seguinte comando no arquivo json do seu <strong>visual studio</strong>(pro eslint tentar corrigir os arquivos):</p>
 
-comando: 
 <pre>
 <code>
 "editor.codeActionsOnSave": {
       "source.fixAll.eslint": "explicit",
       "source.fixAll": "explicit"
 }
+</code>
+</pre>
+
+<p>Tambem inseri esse comando no arquivo json do visual studio(esse pra que vs usar o prettier como formatador do código):</p>
+
+<pre>
+<code>
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    // "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true
 </code>
 </pre>
 
