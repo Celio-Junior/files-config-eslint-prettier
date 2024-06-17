@@ -22,11 +22,11 @@
 <p>
       2 - depois colocar os arquivos: <strong>.babelrc.json e .prettierrc.js </strong> na raiz ou na pasta src(ou algo parecido) no seu projeto
 </p>
-<h2>Configurar o visual studio</h2>
+<h2>3 - Configurar o visual studio</h2>
 <p>Abaixar algumas extensões no visual studio</p>
 <ul>
       <li>ESlint</li>
-      <li>Prettier - Code formatter</li>
+      <li>Prettier - Code formatter(antes não presisava mais atualmente é melhor usar)</li>
 </ul>
 <p>Inseri o seguinte comando no arquivo json do seu <strong>visual studio</strong>(pro eslint tentar corrigir os arquivos):</p>
 
@@ -52,11 +52,38 @@
 </code>
 </pre>
 
-# Correção
-Voce so precisa <strong> npm i -D eslint-config-prettier eslint-config-airbnb eslint-plugin-import</strong> e oa rquivo prettier
+<h2>Correção</h2>
+<p>Observação: <em> usa as configurações do visual studio que foi citado(recomendo, pois se não vai dar certo)</em></p>
+<p>
+      Voce so precisa agora atualmente usa só os comandos <strong> npm i -D eslint-config-prettier eslint-config-airbnb</strong> e o arquivo <strong>.prettierrc.js(como exemplo do 
+      arquivo do repositorio</strong> <br>
+      e colocar no arquivo .eslint.js(se tu usando <strong>npx create-react-app</strong>) ou  e nesse arquivo dentro da chave extends colocar em ultimo(tem que ser em ultimo):
+</p>
 
-# Para o vite
-tem que abaixar <strong>npm i -D eslint-config-prettier eslint-config-airbnb</strong> criar arquivo json <strong>.prettierrc</strong> e adiciona airbnb e prettier no extends<br>
-Opcional colocar <strong>react-hooks</strong> em plugins
+<pre>
+<code>
+{
+  'airbnb',
+  'prettier',
+}
+</code>
+</pre>
+<p>
+      também eu recomendo colocar dentro do arquivo em eslint na chave em plugins(se não tiver tem o arquivo acima como referência):
+</p>
+
+<pre>
+<code>
+plugins: ["react", "react-hooks"]
+</code>
+</pre>
+
+<h2>Para o vite</h2>
+<p>
+      Tem que abaixar <strong>npm i -D eslint-config-prettier eslint-config-airbnb</strong> criar arquivo json <strong>.prettierrc(não precisa colocar extensão json)</strong><br>
+      e adiciona airbnb e prettier no extends Opcional colocar <strong>react-hooks</strong> em plugins
+</p>
+
+<p>Vê arquivo .eslintrc.cjs dentro da pasta new</p>
 
 
