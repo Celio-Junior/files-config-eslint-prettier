@@ -47,12 +47,10 @@
 
 <pre>
 <code>
-"editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    // "editor.formatOnSave": true,
+"[javascript]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.formatOnSave": true
+  }
 </code>
 </pre>
 
