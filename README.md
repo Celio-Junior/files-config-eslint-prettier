@@ -81,7 +81,7 @@ plugins: ["react", "react-hooks"]
 <h2>Para o vite</h2>
 <p>
       Tem que abaixar <strong>npm i -D eslint-config-prettier eslint-config-airbnb</strong> criar arquivo json <strong>.prettierrc(não precisa colocar extensão json)</strong><br>
-      e adiciona airbnb e prettier no extends Opcional colocar <strong>react-hooks</strong> em plugins
+      e adiciona airbnb e prettier no extends, Opcional colocar <strong>react-hooks</strong> em plugins
 </p>
 
 <p>Vê arquivo .eslintrc.cjs dentro da pasta new_arquivo nesse diretorio para vê como referência ou copiar, sente-se a vontade de usar</p>
