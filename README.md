@@ -62,10 +62,10 @@
 
 <pre>
 <code>
-{
+extends: [
   'airbnb',
   'prettier',
-}
+]
 </code>
 </pre>
 <p>
@@ -84,6 +84,6 @@ plugins: ["react", "react-hooks"]
       e adiciona airbnb e prettier no extends Opcional colocar <strong>react-hooks</strong> em plugins
 </p>
 
-<p>Vê arquivo .eslintrc.cjs dentro da pasta new</p>
+<p>Vê arquivo .eslintrc.cjs dentro da pasta new_arquivo nesse diretorio para vê como referência ou copiar, sente-se a vontade de usar</p>
 
 
