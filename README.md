@@ -1,5 +1,9 @@
 <h1>Eslint para o <strong>React</strong></h1>
-<h2>Instações de pacotes necessarios(jeito antigo)<h2>
+<p>
+      Detalhe importante tem que ter a dependência eslint(especialmente versão 8.57.0 pra ser compativel com dependência do airbnb)<br>
+      então roda o comando no seu terminal npm: <pre><code>npm i --save-dev eslint@8.57.0</code></pre>
+</p>
+<h2>Instações de pacotes necessarios(jeito antigo, então não é necessario fazer parte, então começa pela configurações do visual studio e segue as instruções)<h2>
 
 <p>
       1 - abaixa os pacotes com devDepencências(npm i -D ou <strong>npm i --save-dev</strong>):
@@ -56,7 +60,7 @@
 <p>Observação: <em> usa as configurações do visual studio que foi citado(recomendo, pois se não vai dar certo)</em></p>
 <p>
       Voce so precisa agora atualmente usa só os comandos <strong> npm i -D eslint-config-prettier eslint-config-airbnb</strong> e o arquivo <strong>.prettierrc.js(como exemplo do 
-      arquivo do repositorio</strong> <br>
+      arquivo do repositorio)</strong> <br>
       e colocar no arquivo .eslint.js(se tu usando <strong>npx create-react-app</strong>) ou  e nesse arquivo dentro da chave extends colocar em ultimo(tem que ser em ultimo):
 </p>
 
