@@ -21,4 +21,13 @@ comando:
 </code>
 
 # Correção
-Voce so precisa <strong> npm i -D eslint-config-prettier eslint-config-airbnb eslint-config-prettier eslint-plugin-import</strong> e oa rquivo prettier
+Voce so precisa <strong> npm i -D eslint-config-prettier eslint-config-airbnb eslint-plugin-import</strong> e oa rquivo prettier
+
+# Para o vite
+tem que abaixar <strong>npm i -D eslint-config-react-app</strong> criar arquvio json <strong>.eslintrc.json</strong> colocar:<br>
+<code>
+      {
+            "extends": "react-app"
+      }
+</code>
+
