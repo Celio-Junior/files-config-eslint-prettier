@@ -24,10 +24,7 @@ comando:
 Voce so precisa <strong> npm i -D eslint-config-prettier eslint-config-airbnb eslint-plugin-import</strong> e oa rquivo prettier
 
 # Para o vite
-tem que abaixar <strong>npm i -D eslint-config-react-app</strong> criar arquvio json <strong>.eslintrc.json</strong> colocar:<br>
-<code>
-      {
-            "extends": "react-app"
-      }
-</code>
+tem que abaixar <strong>npm i -D eslint-config-prettier eslint-config-airbnb</strong> criar arquivo json <strong>.prettierrc</strong><br>
+Opcional colocar <strong>react-hooks</strong> em plugins
+
 
