@@ -48,9 +48,13 @@
 <pre>
 <code>
 "[javascript]": {
-    "editor.formatOnSave": true,
+    // "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+"[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+"editor.formatOnSave": true
 </code>
 </pre>
 
