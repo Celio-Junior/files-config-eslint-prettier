@@ -6,7 +6,7 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
     'airbnb',
-    'prettier',
+    'plugin: prettier/recommended',
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parserOptions: {
@@ -17,7 +17,7 @@ module.exports = {
     },
   },
   settings: { react: { version: '18.2' } },
-  plugins: ['react-refresh', 'react-hooks'],
+  plugins: ['react-refresh', 'react-hooks', "prettier"],
   rules: {
     'react/jsx-no-target-blank': 'off',
     'react-refresh/only-export-components': [
