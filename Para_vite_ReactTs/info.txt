@@ -1,0 +1,8 @@
+usa esse link: https://www.typescriptlang.org/docs/handbook/jsx.html. => pra mudar config do tsconfig.json
+
+dependencia pra baixar:
+eslint-config-prettier
+eslint-plugin-prettier
+eslint-plugin-react
+prettier
+=> se nao tiver ->  @typescript-eslint/eslint-plugin, @typescript-eslint/parser
